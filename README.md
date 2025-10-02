@@ -15,7 +15,11 @@ A Python tool for reading, modifying, and restoring Hollow Knight save files. Th
 ```bash
 git clone https://github.com/hotwords123/hollow-knight-save.git
 cd hollow-knight-save
-uv install
+
+# Run the following command to install the tool globally
+uv tool install .
+# Or install it in editable mode for development
+uv sync
 ```
 
 ## Usage
